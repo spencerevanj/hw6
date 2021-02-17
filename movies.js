@@ -39,8 +39,6 @@ window.addEventListener('DOMContentLoaded', async function(event) {
   //   <a href="#" class="watched-button block text-center text-white bg-green-500 mt-4 px-4 py-2 rounded">I've watched this!</a>
   // </div>
   // ⬇️ ⬇️ ⬇️
- 
-
   for (let i = 0; i < movies.length; i++) {
     let movieId = movies[i].id
     let posterPath = movies[i].poster_path
